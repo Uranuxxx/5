@@ -18,8 +18,6 @@ def calculate_change(total_amount, purchase_amount):
     for coin, count in coins.items():
         if count > 0:
             print(f"{coin}円硬貨: {count}枚")
-
-
 if __name__ == "__main__":
     try:
         total_amount = int(input("投入金額を入力してください（円）: "))
